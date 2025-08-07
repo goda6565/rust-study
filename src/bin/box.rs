@@ -6,6 +6,7 @@ struct Point {
     y: f64,
 }
 
+#[allow(dead_code)]
 enum AST {
     Number(i32),
     Add(Box<AST>, Box<AST>),
